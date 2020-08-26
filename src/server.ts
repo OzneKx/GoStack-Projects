@@ -1,4 +1,5 @@
-import express, { response } from 'express'
+import routes from './routes';
+import express, { response } from 'express';
 
 const app = express();
 
