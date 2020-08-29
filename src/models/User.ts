@@ -7,11 +7,6 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-interface AppointmentConstructor {
-  provider: string;
-  date: Date;
-}
-
 @Entity('users')
 class User {
   @PrimaryGeneratedColumn('uuid')
