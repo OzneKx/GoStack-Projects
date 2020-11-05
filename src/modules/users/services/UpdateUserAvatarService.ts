@@ -1,11 +1,11 @@
 import { getRepository } from 'typeorm';
 import path from 'path';
 import fs from 'fs';
-import UploadConfig from '../config/upload';
+import UploadConfig from '../../../config/upload';
 
-import AppError from '../errors/AppError';
+import AppError from '../../../errors/AppError';
 
-import User from '../models/User';
+import User from '../../../models/User';
 
 /* eslint-disable camelcase */
 interface Request {
