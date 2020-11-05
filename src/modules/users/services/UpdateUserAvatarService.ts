@@ -5,7 +5,7 @@ import UploadConfig from '../../../config/upload';
 
 import AppError from '../../../shared/errors/AppError';
 
-import User from '../entities/User';
+import User from '../infra/typeorm/entities/User';
 
 /* eslint-disable camelcase */
 interface Request {
