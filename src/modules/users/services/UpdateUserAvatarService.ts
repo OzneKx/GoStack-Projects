@@ -3,9 +3,9 @@ import path from 'path';
 import fs from 'fs';
 import UploadConfig from '../../../config/upload';
 
-import AppError from '../../../errors/AppError';
+import AppError from '../../../shared/errors/AppError';
 
-import User from '../../../models/User';
+import User from '../entities/User';
 
 /* eslint-disable camelcase */
 interface Request {
