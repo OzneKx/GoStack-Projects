@@ -9,7 +9,7 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository';
 
 /**
  * [x] Recebimento das informações
- * [x] Tratavida de erros / excessões
+ * [x] Tratativa de erros / exceções
  * [x] Acesso ao repositório de appointments
  */
 
